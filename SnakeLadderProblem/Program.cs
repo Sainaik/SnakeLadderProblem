@@ -26,7 +26,7 @@ namespace SnakeLadderProblem
             int position = 0;
             int next_position = 0;
             int play_option = 0;
-            //int count1 = 0;
+            int count1 = 0;
 
 
 
@@ -62,9 +62,9 @@ namespace SnakeLadderProblem
                     default:
                         break;
                 }
-                //count1++;
+                count1++;
             }
-            //Console.Out.WriteLine("The dice is rolled " + count1 + " times to reach 100");
+            Console.Out.WriteLine("The dice is rolled " + count1 + " times to reach 100");
         }
     }
 }
