@@ -84,7 +84,7 @@ namespace SnakeLadderProblem
             int position2 = 0;
 
 
-            while ((position1 != 100) || (position2 != 100))
+            while ((position1 != 100) &&(position2 != 100))
             {
                 position1 = PlayGame(player1, position1);
 
